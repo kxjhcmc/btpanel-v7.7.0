@@ -15,8 +15,8 @@ curl -sSO https://raw.githubusercontent.com/kxjhcmc/btpanel-v7.7.0/main/install/
 3.去除创建网站自动创建的垃圾文件（index.html、404.html、.htaccess）
 4.关闭未绑定域名提示页面，防止有人访问未绑定域名直接看出来是用的宝塔面板
 5.关闭活动推荐与在线客服
-
-wget -O optimize.sh http://f.cccyun.cc/bt/optimize.sh && bash optimize.sh
-
+```Bash
+wget -O optimize.sh https://raw.githubusercontent.com/kxjhcmc/btpanel-v7.7.0/main/optimize.sh && bash optimize.sh
+```
 
 适用宝塔面板版本：7.7
